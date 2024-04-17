@@ -13,6 +13,7 @@
 		3DB1CAD5184538E200E91FC5 /* MASExampleArrayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB1CAD4184538E200E91FC5 /* MASExampleArrayView.m */; };
 		44C0E6AF1A9B9C55003C70CF /* MASExampleMarginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C0E6AE1A9B9C55003C70CF /* MASExampleMarginView.m */; };
 		4BEB55B61957394E008C862B /* MASExampleRemakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB55B51957394E008C862B /* MASExampleRemakeView.m */; };
+		4ED693672BCFB2F0000B97F4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4ED693632BCFB29A000B97F4 /* PrivacyInfo.xcprivacy */; };
 		6C87DADA5AB046D9A3181A65 /* libPods-Masonry iOS Examples.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC1B8303EED42A2B01B94B1 /* libPods-Masonry iOS Examples.a */; };
 		DD175E6A182639FB0099129A /* MASExampleUpdateView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD175E69182639FB0099129A /* MASExampleUpdateView.m */; };
 		DD32C3FD18E8BFF6001F6AD2 /* MASExampleAttributeChainingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD32C3FC18E8BFF6001F6AD2 /* MASExampleAttributeChainingView.m */; };
@@ -49,6 +50,7 @@
 		44C0E6AE1A9B9C55003C70CF /* MASExampleMarginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleMarginView.m; sourceTree = "<group>"; };
 		4BEB55B41957394E008C862B /* MASExampleRemakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleRemakeView.h; sourceTree = "<group>"; };
 		4BEB55B51957394E008C862B /* MASExampleRemakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleRemakeView.m; sourceTree = "<group>"; };
+		4ED693632BCFB29A000B97F4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		50B25D0621957AEB87C3FCC2 /* Pods-Masonry iOS Examples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masonry iOS Examples.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Masonry iOS Examples/Pods-Masonry iOS Examples.debug.xcconfig"; sourceTree = "<group>"; };
 		BDC1B8303EED42A2B01B94B1 /* libPods-Masonry iOS Examples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Masonry iOS Examples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD175E68182639FB0099129A /* MASExampleUpdateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASExampleUpdateView.h; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		DD52F21E179CAD57005CD195 = {
 			isa = PBXGroup;
 			children = (
+				4ED693632BCFB29A000B97F4 /* PrivacyInfo.xcprivacy */,
 				DD52F230179CAD57005CD195 /* Masonry iOS Examples */,
 				DD52F229179CAD57005CD195 /* Frameworks */,
 				DD52F228179CAD57005CD195 /* Products */,
@@ -276,6 +279,7 @@
 			files = (
 				DFBACE5D1F7B86860047F15A /* Launch Screen.storyboard in Resources */,
 				3C02224919D0C4EC00507321 /* Images.xcassets in Resources */,
+				4ED693672BCFB2F0000B97F4 /* PrivacyInfo.xcprivacy in Resources */,
 				DD52F235179CAD57005CD195 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

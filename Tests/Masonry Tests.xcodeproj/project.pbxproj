@@ -11,6 +11,8 @@
 		1ABDF84BB7EB4FD087045E36 /* libPods-Masonry iOS Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF4FBEAC97D4EA5ABA1D512 /* libPods-Masonry iOS Tests.a */; };
 		3D21C42B1845D0CA001D5F97 /* NSArray+MASAdditionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D21C42A1845D0C0001D5F97 /* NSArray+MASAdditionsSpec.m */; };
 		447354911B3A1818004DACCB /* ViewController+MASAdditionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4473548F1B3A17B4004DACCB /* ViewController+MASAdditionsSpec.m */; };
+		4ED693652BCFB2DA000B97F4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4ED693642BCFB2DA000B97F4 /* PrivacyInfo.xcprivacy */; };
+		4ED693662BCFB2DA000B97F4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4ED693642BCFB2DA000B97F4 /* PrivacyInfo.xcprivacy */; };
 		DD717A0218442A6400FAA7A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD717A0118442A6400FAA7A8 /* Foundation.framework */; };
 		DD717A0418442A6400FAA7A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD717A0318442A6400FAA7A8 /* CoreGraphics.framework */; };
 		DD717A0618442A6400FAA7A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD717A0518442A6400FAA7A8 /* UIKit.framework */; };
@@ -47,6 +49,7 @@
 		3D21C42A1845D0C0001D5F97 /* NSArray+MASAdditionsSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditionsSpec.m"; sourceTree = "<group>"; };
 		4473548F1B3A17B4004DACCB /* ViewController+MASAdditionsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditionsSpec.m"; sourceTree = "<group>"; };
 		47918AE732004ACDA52EF295 /* libPods-MasonryTestsLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryTestsLoader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED693642BCFB2DA000B97F4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		B3C285A8F21659F8AC931CFE /* Pods-MasonryTestsLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryTestsLoader.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MasonryTestsLoader/Pods-MasonryTestsLoader.release.xcconfig"; sourceTree = "<group>"; };
 		D7C49E3BFEC39EF9CC752050 /* Pods-Masonry iOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masonry iOS Tests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Masonry iOS Tests/Pods-Masonry iOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD7179FE18442A6400FAA7A8 /* MasonryTestsLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryTestsLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +121,7 @@
 		DD7179F318442A1F00FAA7A8 = {
 			isa = PBXGroup;
 			children = (
+				4ED693642BCFB2DA000B97F4 /* PrivacyInfo.xcprivacy */,
 				DD717A4718442EC600FAA7A8 /* Specs */,
 				DD717A5E18442F3900FAA7A8 /* Supporting Files */,
 				DD717A0018442A6400FAA7A8 /* Frameworks */,
@@ -273,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED693652BCFB2DA000B97F4 /* PrivacyInfo.xcprivacy in Resources */,
 				DD717A0C18442A6400FAA7A8 /* InfoPlist.strings in Resources */,
 				DD717A1418442A6400FAA7A8 /* Images.xcassets in Resources */,
 			);
@@ -282,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED693662BCFB2DA000B97F4 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
