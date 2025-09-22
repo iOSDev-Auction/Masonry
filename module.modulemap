@@ -1,0 +1,4 @@
+module MasonryWrapperObjC {
+    header "Masonry.h"
+    export *
+}
